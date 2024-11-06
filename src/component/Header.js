@@ -9,10 +9,10 @@ function Header() {
         <img src={logo} className="size-20 rounded-full" alt="fuck" />
       </div>
       <div className="flex items-center justify-center gap-4 m-8">
-        <FaGithub size={22}/>
+        <a href="https://github.com/Tixxy-A" target="_blank" rel="noreferrer"><FaGithub size={22}/></a>
         <FaInstagram size={22}/>
         <FaXTwitter size={22}/>
-        <FaLinkedin size={22}/>
+        <a href="https://www.linkedin.com/in/anuj-raut-63a2a722a/" target="_blank" rel="noreferrer"><FaLinkedin size={22}/></a>
       </div>
     </nav>
   );
